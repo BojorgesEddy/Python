@@ -1,0 +1,19 @@
+   26  mkdir -p Taller_clase_3/Archivos/Textos_planos
+   27  mkdir -p Taller_clase_3/Archivos/Pdf
+   28  mkdir -p Taller_clase_3/Mover_imagen_aqui
+   29  cd ./Taller_clase_3/Archivos/Textos_planos
+   30  touch Texto_plano1.txt
+   31  touch Texto_pano2.txt
+   32  cd..
+   33  cd ..
+   34  cd ./Pdf
+   35  curl -o Explicaciones.pdf training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf
+   36  cd ..
+   37  cd ..
+   38  curl -o Imagen1.jpg e00-elmundo.uecdn.es/assets/multimedia/imagenes/2018/03/28/15222363072573.jpg
+   39  mv Imagen1.jpg ./Mover_imagen_aqui
+   40  tree ./ > estructura.txt
+   41  history
+   42  history | tail -n 17
+   43  history | tail -n 17 > Historial.txt
+   44  history | tail -n 19 > Historial.txt
